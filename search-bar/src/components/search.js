@@ -4,9 +4,9 @@ const Search = () => {
     return (
         <div>
             <label>
-            Search
+                Search
                 <form>
-                    <input name='character' type='text' placeholder='Search for Characters 🔍'/>
+                    <input name='character' type='text' placeholder='Search for Characters 🔍' />
                 </form>
             </label>
         </div>

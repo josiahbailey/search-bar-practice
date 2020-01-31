@@ -26,14 +26,14 @@ const Container = () => {
                 console.log("ERROR", err)
             })
     }, [search])
-    
+
     const handleChanges = e => {
         setSearch(e.target.value)
     }
     const handleSubmit = e => {
         e.preventDefault()
         const breaking = data.filter(char => (
-        char.name.toLowerCase().includes(search.toLowerCase())   
+            char.name.toLowerCase().includes(search.toLowerCase())
         ))
         setData(breaking)
     }
